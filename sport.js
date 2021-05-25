@@ -1,4 +1,4 @@
-document.querySelector("#featured-wrapper").style.display= "block";
+setTimeout(() => {document.querySelector("#featured-wrapper").style.display= "block";
 document.querySelector(".footerbar").style.height= "50px";
         document.querySelector("#match-yaster").onclick=function(){
         this.classList.add("open-match");
@@ -24,3 +24,4 @@ document.querySelector(".footerbar").style.height= "50px";
         document.querySelector("#matchtables-yester").classList.remove("openn");
         document.querySelector("#matchtables-Tom").classList.add("openn");
         };
+      }, 100);
