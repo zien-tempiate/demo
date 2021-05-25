@@ -56,54 +56,8 @@ opacity:1;
     opacity: .7;
     cursor: pointer;
     line-height: 17px;
-}.cl-s{
-    display: none!important;
 }
-.open{
-    display:block!important;
-}
-.s-ul{
-    text-align: center!important;
-}
-.serv {
-    color: rgb(255,255,255)!important;
-    background-color: rgb(15,15,15)!important;
-    border-color: var(--cl) !important;
-    display: inline-block!important;
-    margin-bottom: 0!important;
-    font-weight: normal!important;
-    text-align: center!important;
-    vertical-align: middle!important;
-    background-image: none!important;
-    border: 1px solid transparent!important;
-    white-space: nowrap!important;
-    padding: 6px 12px!important;
-    font-size: 15px!important;
-    line-height: 1.42857!important;
-    border-radius: 2px!important;
-    -moz-user-select: none!important;
-    cursor: pointer!important;
-    margin-bottom: 5px !important;
-}.serv:hover, .serv.o-s {
-    background: var(--cl) !important;
-}#tv-post {
-    margin: 20px 0 10px!important;
-    border: 1px solid var(--cl)!important;
-    border-radius: 2px!important;
-    padding: 10px!important;
-    text-align: center!important;
-    background-color: RGB(18,18,18)!important;
-    position: relative!important;
-    height: 548px !important!important;
-    display: block!important;
-    width: 90%!important;
-float: none !important;
-margin: 0 auto !important;
-}iframe {
-    height: 488px;
-    max-width: 100%;
-}
-@media screen and (max-width: 680px) {.match-tabs, .match-ul {
+@media screen and (max-width: 550px) {.match-tabs, .match-ul {
     float: none;
     text-align: center;
     display: inline-block;
