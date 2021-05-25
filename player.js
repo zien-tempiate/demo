@@ -1,5 +1,4 @@
 setTimeout(() => {$(".footerbar").css("height","50px");
-$(document).ready(function(){
           $("#match-yaster").click(function(){
             $("#match-today").removeClass("open-match");
             $("#match-tom").removeClass("open-match");
@@ -62,5 +61,4 @@ $(document).ready(function(){
             $("#s3").addClass("o-s");
             $("#se-3").addClass("open");
           });
-        });
 },150);
