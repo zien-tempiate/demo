@@ -1,4 +1,3 @@
-setTimeout(() => {$(".footerbar").css("height","50px");
           $("#match-yaster").click(function(){
             $("#match-today").removeClass("open-match");
             $("#match-tom").removeClass("open-match");
