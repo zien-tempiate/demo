@@ -1,4 +1,6 @@
-          $("#match-yaster").click(function(){
+        setTimeout(() => {
+        document.querySelector(".footerbar").style.height= "50px";
+            $("#match-yaster").click(function(){
             $("#match-today").removeClass("open-match");
             $("#match-tom").removeClass("open-match");
             $("#matchtables-today").removeClass("openn");
