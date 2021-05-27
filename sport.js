@@ -1,4 +1,3 @@
-document.querySelector("#featured-wrapper").style.display= "block";
 document.querySelector(".footerbar").style.height= "50px";
         document.querySelector("#match-yaster").onclick=function(){
         this.classList.add("open-match");
